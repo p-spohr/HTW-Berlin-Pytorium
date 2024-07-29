@@ -147,3 +147,6 @@ z
 
 ## new folder (needs to be set up)
 # CTRL + ALT + N
+
+## clear interactive console (needs to be set up)
+# CTRL + ALT + K
