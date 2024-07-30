@@ -49,9 +49,13 @@
 
 # %%
 
-# == funktioniert mit Buchstaben oder Wörter
+# ==, ist gleich, funktioniert mit Buchstaben oder Wörter
 'abc' == 'abc'
 
+# %%
+
+# != heißt nicht gleich wie
+'dog' != 'cat'
 
 # %%
 
@@ -74,3 +78,28 @@
 
 [x + 1 for x in [1,2,3,4]]
 
+
+# %%
+
+# Konsolenausgabe 
+# man braucht print, um etwas im Shell zu zeigen
+# hier haben wir die Interactive View und ist es nicht notwendig
+print("Hi!")
+
+# %%
+
+# * kann String duplizieren
+print("Hi" + "!" * 5)
+
+
+# %%
+
+# String sind eine Zeichenketten
+# [0] ist die erste Kettenglied
+# Bemerkung: der Index beginnt mit 0 nicht 1
+"12345"[0]
+
+# %%
+
+# minus Index fängt von das Ende an
+"12345"[-1]
