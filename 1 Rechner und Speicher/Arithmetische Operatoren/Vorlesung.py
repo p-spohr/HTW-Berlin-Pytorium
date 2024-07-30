@@ -69,7 +69,8 @@
 
 # VORSICHTIG!
 # [1,2,3,4] + 1 ist ein Fehler, weil Listen nicht vektorisiert sind
-# man braucht List-Comprehension
+# man braucht List-Comprehension, map() oder numpy.array 
 # wir besprechen das tiefer in Datenstrukturen
 
 [x + 1 for x in [1,2,3,4]]
+
