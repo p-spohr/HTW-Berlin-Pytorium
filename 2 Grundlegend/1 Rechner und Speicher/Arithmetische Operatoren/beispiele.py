@@ -18,13 +18,21 @@
 # Division
 1 / 3
 
+# HINWEIS!
 # Division ergibt immer ein float
-10 / 2
 
 # %%
 
 # Exponetial
 2**2
+
+# %%
+
+# Modus
+6 % 4
+
+# HINWEIS!
+# hilfreich für die Prüfung von gerade oder ungerade Zahlen
 
 # %%
 
@@ -44,8 +52,10 @@
 
 # %%
 
-# Arithmetik vor Logik => falsch
-1 == 1 + 1
+# Arithmetik vor Logik
+1 == 1 + 1 # ergibt False
+
+1 * 2 == 1 + 1 # ergibt True
 
 # %%
 
@@ -54,7 +64,7 @@
 
 # %%
 
-# != heißt nicht gleich wie
+# !=, nicht gleich wie, funktioniert mit Buchstaben oder Wörter
 'dog' != 'cat'
 
 # %%
@@ -62,22 +72,20 @@
 # + kann Liste konkatenieren
 [1,2,3,4] + [1]
 
+# VORSICHTIG!
+# [1,2,3,4] + 1 ergibt einen Fehler, weil Listen nicht vektorisiert sind
+# man braucht List-Comprehension, map() oder numpy.array 
+# wir besprechen das tiefer in Datenstrukturen
+
+# List-Comprehension Beispiel
+# [x + 1 for x in [1,2,3,4]]
+
 # %%
 
 # + kann auch Wörter konkatenieren
 'Hello' + ' ' + 'World' + '!'
 # aber das ist nicht die beste Methode diese Ergebnis zu bekommen
 # str.format() oder f'' ist besser und wir lernen das in Daten Strukturen
-
-# %%
-
-# VORSICHTIG!
-# [1,2,3,4] + 1 ist ein Fehler, weil Listen nicht vektorisiert sind
-# man braucht List-Comprehension, map() oder numpy.array 
-# wir besprechen das tiefer in Datenstrukturen
-
-[x + 1 for x in [1,2,3,4]]
-
 
 # %%
 
