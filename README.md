@@ -8,4 +8,4 @@ Bitte lesen Sie die [Wiki](https://github.com/p-spohr/HTW-Berlin-Pytorium/wiki) 
 - Beispiele
 - Aufgaben
 
-Direkt zum Set-Up gehen! Klicken Sie [hier](https://github.com/p-spohr/HTW-Berlin-Pytorium/wiki/Python-Installation!)
+Direkt zum Set-Up gehen! Klicken Sie [hier](https://github.com/p-spohr/HTW-Berlin-Pytorium/wiki/Python-Installation)!
