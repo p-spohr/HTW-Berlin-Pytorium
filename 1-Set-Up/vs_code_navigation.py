@@ -150,3 +150,6 @@ z
 
 ## clear interactive console (needs to be set up)
 # CTRL + ALT + K
+
+# Notebook: Execute Notebook Cell and Insert Below
+# ALT + ENTER
