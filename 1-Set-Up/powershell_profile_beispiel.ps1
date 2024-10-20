@@ -16,7 +16,7 @@ function Set-R-Repo ($folder = "a") {
 
   Set-Location C:\Users\pat_h\OneDrive\public-repos\R-Resources
   
-  # zusätzlicher Parameter, wobei man File Explorer öffne
+  # zusätzlicher Parameter, wobei man File Explorer öffnet
   if ($folder -eq "f") {
     exp .\
   }

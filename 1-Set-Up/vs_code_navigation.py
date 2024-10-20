@@ -153,3 +153,28 @@ z
 
 # Notebook: Execute Notebook Cell and Insert Below
 # ALT + ENTER
+
+## move to terminal when terminal active
+{
+  "key": "ctrl + `",
+  "command": "workbench.action.terminal.toggleTerminal",
+  "when": "terminal.active"
+}
+
+## format document (useful for json)
+{
+  "key": "shift + alt + f",
+  "command": "editor.action.formatDocument",
+  "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
+}
+
+## delete line
+{
+  "key": "ctrl+shift+k",
+  "command": "editor.action.deleteLines",
+  "when": "textInputFocus && !editorReadonly"
+}
+
+## add emojis for Windows
+# Win + .
+# 👌 😁
