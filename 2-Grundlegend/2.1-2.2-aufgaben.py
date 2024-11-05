@@ -45,12 +45,16 @@ Lösen Sie diese Aufgabe in VS Code oder in Jupyter Notebook.
 
 
 # Aufgabe 4
-## 4.1 Initialisieren Sie eine Dictionary mit 10 Leute: Name, Age und Haustier (Hund oder Katze)
+## 4.1 Initialisieren Sie eine Liste von Dictionaries mit 10 Leute
 '''
+Keys: Name, Alter und Haustier (Hund oder Katze)
 1. Benutzen Sie die Namen von früher plus vier mehr. 
-2. Das Alter ist 5 mal die Anzahl der Buchstaben.
-3. Alle Leute mit ein 'a' in ihrem Name hat ein Hund, sonst Katze
-4. Drucken Sie alle Daten in vernünftigen Sätze aus.
+2. Das Alter ist 5 mal die Anzahl der Buchstaben des Names.
+3. Alle Leute mit ein 'a' in ihrem Namen hat einen Hund, sonst Katze
 '''
+
+
+## 4.2 Drucken Sie alle Daten von der neu erstellten Dictionary in vernünftigen Sätzen aus.
+
 
 
