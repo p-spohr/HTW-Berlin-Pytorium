@@ -18,7 +18,7 @@ Lösen Sie diese Aufgabe in VS Code oder in Jupyter Notebook.
 ## 1.4 Drucken Sie die erste Buchstabe von jede Name aus.
 
 
-## 1.5 Drucken und Speichern Sie jede Name als ungekehrt aus in einer neuen Liste.
+## 1.5 Speichern Sie jeden Name als ungekehrt in einer neuen Liste und drucken Sie gleichzeitig jeden Name aus.
 
 
 ## 1.6 Löschen Sie alle Elemente in der neuen ungekehrten Liste.
