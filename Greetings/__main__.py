@@ -1,3 +1,6 @@
+
+# https://docs.python.org/3/library/__main__.html#main-py-in-python-packages
+
 # %%
 import sys
 from . import main # ImportError in interactive cell, but works from CLI
