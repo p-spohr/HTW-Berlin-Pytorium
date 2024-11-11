@@ -1,3 +1,6 @@
 # gitignore
 /Lösungen
 /testing
+/.ipynb_checkpoints
+/.vs
+/.vscode
