@@ -41,6 +41,13 @@ def main():
         required= False
     )
 
+    parser.add_argument(
+        '--verbose', '-v',
+        help= 'give detailed report of argparse arguments',
+        action= 'store_true',
+        required= False
+    )
+
     group = parser.add_mutually_exclusive_group(required= False)
     group.add_argument(
         '--castle',
@@ -56,23 +63,21 @@ def main():
         required= False
     )
     
+
     args = parser.parse_args()
 
-    print(args)
-    print(type(args)) # simple argparse.Namespace
+    if args.verbose:
 
-    # Return the __dict__ attribute for a module, class, instance, 
-    # or any other object with a __dict__ attribute.
-    print(vars(args))
+        print(args)
+        # print(type(args)) # simple argparse.Namespace
 
+        # Return the __dict__ attribute for a module, class, instance, 
+        # or any other object with a __dict__ attribute.
+        print(vars(args))
+
+    # default answer without options
     args_list = list(vars(args).values())
-
-    print(args_list)
-
     check_args = args_list[1:4]
-
-    print(check_args)
-
     if check_args == [False] * len(check_args):
         print(f'Greetings, {args.name}')
 

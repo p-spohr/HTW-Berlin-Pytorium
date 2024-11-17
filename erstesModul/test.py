@@ -61,3 +61,66 @@ add_num = map(funktionen.add, num, num)
 # %%
 list(add_num)
 # %%
+
+import ersterOrdner.zweiterOrdner.greetings
+
+# %%
+
+ersterOrdner.zweiterOrdner.greetings.say_hello('patrick')
+
+# %%
+
+class Animal:
+
+    def __init__(self, name):
+        self.name = name
+
+    def eat(self, food='grub'):
+        print(f'Yum! Thanks for the {food}!')
+
+# %%
+
+class Pet(Animal):
+
+    def __init__(self, owner, name):
+        self.owner = owner
+        super().__init__(name)
+
+    def eat(self,food='grub'):
+        super().eat(food)
+
+    def pet(self):
+        print('Happiness ++++++')
+
+# %%
+
+my_animal = Animal('Snowbub')
+
+# %%
+
+my_animal.name
+
+# %%
+
+my_pet = Pet('Pat', 'Spot')
+
+# %%
+
+my_pet.name
+
+# %%
+
+my_pet.owner
+# %%
+
+my_pet.eat('pasta')
+
+# %%
+
+my_pet.eat()
+
+# %%
+
+my_pet.pet()
+
+# %%
