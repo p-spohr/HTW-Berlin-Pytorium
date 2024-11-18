@@ -1,9 +1,5 @@
 # %%
 
-print('Hi!')
-
-# %%
-
 import erstesModul.filme.film
 # import time
 
@@ -199,3 +195,144 @@ print(a_id == b_id)
 print(uuid.uuid1())
 
 print(uuid.uuid4())
+
+# %%
+
+class BesserList(list):
+
+	def __new__(list, *args, **kwargs): 
+		print("Creating instance of list") 
+		instance = super().__new__(list, *args, **kwargs) 
+		return instance
+	
+	def __init__(self, instance, besitzer):
+		self.instance = instance
+		self.besitzer = besitzer
+		
+	def minus_eins(self):
+		return [x - 1 for x in self.instance]
+
+# %%
+
+neu_liste = BesserList([1,2,3,4], 'Patrick')
+
+# %%
+
+neu_liste.minus_eins()
+
+# %%
+
+neu_liste.__class__
+
+# %%
+
+neu_liste.besitzer
+
+# %%
+
+class BesserList2(list):
+	def minus_eins(self):
+		return [x - 1 for x in self]
+	
+
+
+# %%
+
+BesserList2([1,2,3]).minus_eins()
+
+# %%
+
+class Person:
+	def __new__(cls,*args,**kwargs):
+		print(f'Eine Person ({args[0]}) wird geboren.')
+		# print(cls)
+		# print(Person)
+		print(args)
+		print(kwargs)
+		return super(Person,cls).__new__(cls)
+	def __init__(self, name):
+		self.name = name
+
+# %%
+
+pat = Person('Pat')
+
+# %%
+
+print(pat.name)
+
+# %%
+
+import numpy as np
+
+# %%
+
+zahl = np.arange(10)
+
+# %%
+
+zahl.size
+
+# %%
+
+zahl.shape
+
+# %%
+
+zahl.ndim
+
+# %%
+
+zahl.reshape(2,5).max(axis=1)
+
+# %%
+
+zeros = np.zeros([3,3,3])
+
+# %%
+
+zeros[0][0] += 1
+
+# %%
+
+zeros.max(axis=2)
+# %%
+
+zeros
+# %%
+
+zeros1 = np.zeros([3,3])
+
+# %%
+
+zeros1[0] += 1
+
+# %%
+
+zeros1
+
+# %%
+
+zeros1.max(axis=1)
+
+# %%
+
+zeros1
+# %%
+
+zeros1[:,0]
+
+# %%
+
+class Base:
+	def greet(self):
+		print("Hallo von der Basisklasse")
+
+class Derived(Base):
+	def greet(self):
+		super().greet()
+		print("Hallo von der abgeleiteten Klasse")
+
+d = Derived()
+d.greet()
+# %%
