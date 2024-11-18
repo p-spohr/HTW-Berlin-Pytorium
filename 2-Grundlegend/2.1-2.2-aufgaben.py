@@ -34,7 +34,7 @@ Lösen Sie diese Aufgabe in VS Code oder in Jupyter Notebook.
 ## 2.3 Drucken Sie jede gerade Zahl aus, die nicht ein Teiler von zehn ist.
 
 
-## 2.4 Drucken Sie jede ungerade Zahl doppelt aus, die nicht ein Teiler von fünf ist.
+## 2.4 Drucken Sie jede ungerade Zahl quadriert aus, die nicht ein Teiler von fünf ist.
 
 
 # Aufgabe 3

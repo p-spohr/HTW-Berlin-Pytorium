@@ -137,7 +137,7 @@ for num in num_liste:
         print(num)
 
 
-# ## 2.4 Drucken Sie jede ungerade Zahl doppelt aus, die nicht ein Teiler von fünf ist.
+# ## 2.4 Drucken Sie jede ungerade Zahl quadriert aus, die nicht ein Teiler von fünf ist.
 
 # In[230]:
 
