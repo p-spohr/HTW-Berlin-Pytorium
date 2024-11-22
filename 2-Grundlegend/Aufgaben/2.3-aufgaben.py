@@ -29,7 +29,7 @@ Lösen Sie diese Aufgabe in VS Code oder in Jupyter Notebook.
 ## 3.1 Definieren Sie eine Funktion, die die Kovarianz zweier Zufallsvariablen berechnet.
 
 
-## 3.2 BONUS: Wie Können Sie die Funktion erweitern, damit sie eine beliebige Anzahl von Zufallsvariablen berechnen kann? Erweitern Sie die Funktion.
+## 3.2 Wie Können Sie die Funktion erweitern, damit sie eine beliebige Anzahl von Zufallsvariablen berechnen kann? Erweitern Sie die Funktion.
 
 
 # Aufgabe 4
