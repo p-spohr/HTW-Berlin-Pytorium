@@ -85,7 +85,7 @@ class Pet(Animal):
     def __init__(self, owner, name):
         self.owner = owner
         super().__init__(name)
-
+    # this ensures the subclass eat() is called
     def eat(self,food='grub'):
         super().eat(food)
 
@@ -106,7 +106,11 @@ my_pet = Pet('Pat', 'Spot')
 
 # %%
 
-my_pet.name
+my_pet.eat is my_animal.eat
+print(my_pet.eat)
+print(my_animal.eat)
+my_pet.eat()
+my_animal.eat()
 
 # %%
 
