@@ -19,7 +19,7 @@ Lösen Sie diese Aufgabe in VS Code oder in Jupyter Notebook.
 ## 2.1 Definieren Sie eine Funktion, die die Fläche einen Kreis zurückgibt.
 
 
-## 2.2 Erweitern Sie die Funktion mit einer Farbe- und Muster-Parameter. Schreiben Sie eine Methode, um sie auszudrucken.
+## 2.2 Erweitern Sie die Funktion mit einer Farbe- und Muster-Parameter. Drucken Sie die neuen Parameter aus.
 
 
 ## 2.3 Ändern Sie die Funktion, sodass die Funktion noch die Fläche zurückgibt, aber auch einen vernünftigen Satzt ausdrückt, wenn aufgegeruft.
