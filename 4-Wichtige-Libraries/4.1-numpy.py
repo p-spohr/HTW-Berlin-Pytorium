@@ -8,10 +8,12 @@ np_liste = np.array([1,2,3])
 
 # %%
 
+# ndarray sind vektorisiert
 np_liste + 2
 
 # %%
 
+# speichere die neue ndarray
 np_liste += 2
 
 # %%

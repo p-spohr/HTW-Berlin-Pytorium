@@ -2,7 +2,7 @@
 
 '''
 Diese Aufgaben sind länger als Lernzielkontrolle und fassen alle Themen aus 2.1 und 2.2 zusammen.
-Lösen Sie diese Aufgabe in VS Code oder in Jupyter Notebook.
+Lösen Sie diese Aufgaben in VS Code oder in Jupyter Notebook.
 '''
 
 # Aufgabe 1
