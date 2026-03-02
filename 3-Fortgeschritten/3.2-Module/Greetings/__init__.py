@@ -98,16 +98,17 @@ def main():
 
 # %%
 
-if __name__ == '__main__':
+# 'py -m Greetings' from CLI runs the __main__.py
+# if __name__ == '__main__':
    
-    rc = 1
+#     rc = 1
 
-    try:
-        main()
-        rc = 0
+#     try:
+#         main()
+#         rc = 0
 
-    except Exception as e:
-        print('Error: %s' % e, file=sys.stderr)
-        sys.exit(rc)
+#     except Exception as e:
+#         print('Error: %s' % e, file=sys.stderr)
+#         sys.exit(rc)
 
 # %%
